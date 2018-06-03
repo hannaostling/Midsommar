@@ -13,6 +13,9 @@
 		B531953020C46CE700A060B9 /* Midsommar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B531952E20C46CE700A060B9 /* Midsommar.xcdatamodeld */; };
 		B531953220C46CEF00A060B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B531953120C46CEF00A060B9 /* Assets.xcassets */; };
 		B531953520C46CEF00A060B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B531953320C46CEF00A060B9 /* LaunchScreen.storyboard */; };
+		B531953D20C46DA300A060B9 /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531953C20C46DA300A060B9 /* SnapsTableViewController.swift */; };
+		B531953F20C46DB200A060B9 /* SnapsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531953E20C46DB100A060B9 /* SnapsTableViewCell.swift */; };
+		B531954120C4785200A060B9 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B531954020C4785200A060B9 /* SnapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B531953120C46CEF00A060B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B531953420C46CEF00A060B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B531953620C46CEF00A060B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B531953C20C46DA300A060B9 /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
+		B531953E20C46DB100A060B9 /* SnapsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewCell.swift; sourceTree = "<group>"; };
+		B531954020C4785200A060B9 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				B531953320C46CEF00A060B9 /* LaunchScreen.storyboard */,
 				B531953620C46CEF00A060B9 /* Info.plist */,
 				B531952E20C46CE700A060B9 /* Midsommar.xcdatamodeld */,
+				B531953C20C46DA300A060B9 /* SnapsTableViewController.swift */,
+				B531953E20C46DB100A060B9 /* SnapsTableViewCell.swift */,
+				B531954020C4785200A060B9 /* SnapsViewController.swift */,
 			);
 			path = Midsommar;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B531952A20C46CE700A060B9 /* ViewController.swift in Sources */,
+				B531953D20C46DA300A060B9 /* SnapsTableViewController.swift in Sources */,
+				B531954120C4785200A060B9 /* SnapsViewController.swift in Sources */,
 				B531952820C46CE700A060B9 /* AppDelegate.swift in Sources */,
 				B531953020C46CE700A060B9 /* Midsommar.xcdatamodeld in Sources */,
+				B531953F20C46DB200A060B9 /* SnapsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
