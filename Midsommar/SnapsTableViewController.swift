@@ -18,8 +18,53 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
     var song: [[String:String]] = [
         [
             "songTitle": "Helan går",
-            "songLyric": "Helan går, \n sjung hopp falleri faderallan lej, \n helan går, \n sjung hopp faderallan lej \n Och den som inte helan tar \n han inte heller halvan får \n Helan gåååååååår \n sjung hopp faderallan lej. \n \n Halvan går, \n sjung hopp falleri faderallan lej, \n helan går, \n sjung hopp faderallan lej \n Och den som inte halvan tar \n han inte heller tersen får \n Helan gåååååååår \n sjung hopp faderallan lej.",
+            "songLyric": "Helan går, \n sjung hopp falleri faderallan lej, \n helan går, \n sjung hopp faderallan lej \n Och den som inte helan tar \n han inte heller halvan får \n Helan gåååååååår \n sjung hopp faderallan lej!",
             "songMelody": "Helan går"
+        ],
+        [
+            "songTitle": "Den badstrandstid nu kommer",
+            "songLyric": "Den badstrandstid nu kommer, \n när magen är för stor. \n Då hela kroppen sväller, \n och celluliter gror. \n Och alla våra valkar, \n lyfts fram i solens ljus. \n Nej stranden verkar boring, \n vi stannar inomhus. \n \n De krav som sommarn ställer, \n förstör vår ledighet. \n Vi sitter där och gnäller, \n fy fan vad jag e´ fet. \n Fast vem vill motionera, \n när man kan sitta still. \n Nej låt oss revoltera, \n vi tar en nubbe till!",
+            "songMelody": "Den blomstertid nu kommer"
+        ],
+        [
+            "songTitle": "Thank you for the brännvin",
+            "songLyric": "Thank you for the brännvin \n that keeps us singing, \n thanks for all the joy it´s bringing, \n who could live without it, \n ask in all honesty? \n What would life be? \n Without a snaps and a skål, what are we ? \n So I say: thank you for the brännvin \n for bringing it to me",
+            "songMelody": "Thank you for the music"
+        ],
+        [
+            "songTitle": "Idas Facebook-visa",
+            "songLyric": "Du ska inte tro att jag glömmer bort \n de bilder vi plåtar ikväll. \n Jag kommer att ladda upp varje kort \n och vill inte höra nått gnäll. \n \n De hamnar på Facebook helt indiskret \n ja, även om du säger nej. \n Du har ingen rätt att förbjuda det \n för du har gjort samma mot mig.",
+            "songMelody": "Idas Sommarvisa"
+        ],
+        [
+            "songTitle": "Instakräftan",
+            "songLyric": "Dags för kräftor, glöm inte att plåta. \n Ut på Insta för att fiska likes. \n Välj ett filter, tagga alla vänner, \n visa flödet att du har det nice. \n \n Men en liten dålig sak \n gällande vår hjärtesak \n är att under filter-spak \n mat kan tappa smak. \n \n Tur att kräftor då ska vara kalla, \n och vår kompis snapsen likaså!",
+            "songMelody": "Bamse"
+        ],
+        [
+            "songTitle": "Autocorrect",
+            "songLyric": "Vem kan skriva ett sms \n efter sju-åtta snapsar. \n Utan autocorrects effekt \n som gör att allt kollapsar. \n \n Jag kan skida fett sms \n efter sju-klocka snacksar. \n Utan automobilskonfekt \n jag dör på katt och paxar.",
+            "songMelody": "Vem kan segla"
+        ],
+        [
+            "songTitle": "Snapchat",
+            "songLyric": "Jag sände en snap en gång, \n och tiden var inte lång, \n men någon hann ändå skärmdumpa bilden på mig. \n \n Svara mig du, \n vad gör jag nu? \n \n Jag var inte naken, \n men fruktansvärt ful.",
+            "songMelody": "Jag hade en gång en båt"
+        ],
+        [
+            "songTitle": "Vi ska festa",
+            "songLyric": "Vi ska dricka, vi ska festa, \n vi ska göra vårat bästa, \n vi ska låta marken gunga, \n vi äro ännu unga. \n Vi dansar uppå borden, \n vi festar in Norden \n Och vi ska bara dricka, sjunga, \n spexa, älska, vara unga.\n för vi har det jättefestligt nu!",
+            "songMelody": "Mössen i Askungen"
+        ],
+        [
+            "songTitle": "Var nöjd med allt vad livet ger",
+            "songLyric": "Var nöjd med, allt vad livet ger \n och allting som du kring dig ser, \n glöm bort bekymmer, sorger och besvär! \n Var glad och nöjd, för vet du vad, \n en björntjänst gör ju ingen glad, \n var nöjd med livet som vi lever här!",
+            "songMelody": "Var nöjd med allt vad livet ger"
+        ],
+        [
+            "songTitle": "Sån är spriten",
+            "songLyric": "Sån är spriten, sån är spriten \n Så mycket brännvin finns det här \n Den sup man ratar, den tar nån annan \n Så ta nu snapsen som du har kär.",
+            "songMelody": "Sånt är livet"
         ],
         [
             "songTitle": "Serenat",
@@ -60,11 +105,6 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
             "songTitle": "Säg det med ett leende",
             "songLyric": "Säg det med ett leende \n och höj nu nubben i ditt glas. \n Ett härligt, glatt beteende \n här på vårt midsommarkalas. \n Till nypotatis och god sill \n det smakar bra med nubbe till. \n Ja, säg det med ett leende \n och ta sen nubben i ditt glas: \n SKÅL!",
             "songMelody": "Säg det med ett leende"
-        ],
-        [
-            "songTitle": "Den badstrandstid nu kommer",
-            "songLyric": "Den badstrandstid nu kommer, \n när magen är för stor. \n Då hela kroppen sväller, \n och celluliter gror. \n Och alla våra valkar, \n lyfts fram i solens ljus. \n Nej stranden verkar boring, \n vi stannar inomhus. \n \n De krav som sommarn ställer, \n förstör vår ledighet. \n Vi sitter där och gnäller, \n fy fan vad jag e´ fet. \n Fast vem vill motionera, \n när man kan sitta still. \n Nej låt oss revoltera, \n vi tar en nubbe till!",
-            "songMelody": "Den blomstertid nu kommer"
         ],
         [
             "songTitle": "Fira med nubbe",
@@ -127,54 +167,104 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
             "songMelody": "Ritsch, ratsch, filibom"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Festen kan börja",
+            "songLyric": "Festen kan börja \n ingen får sörja \n när det finns både \n brännvin och mat \n Helan ska tömmas \n sorgerna glömmas \n ingen får vara \n tråkig kamrat \n \n Klappa mitt hjärta \n fröjdas min själ \n nubben serveras genast, nåväl! \n \n Nu tar vi supen \n öppna på strupen \n gästernas välkomstskål! \n SKÅL!",
+            "songMelody": "Vårvindar friska"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Till nubben tager man",
+            "songLyric": "Till nubben så tager man sill, fallera, \n men också ansjovis, om man vill, fallera. \n Men om man är oviss, \n och sillen är ansjovis, \n så tager man bara några nubbar till, fallera. \n SKÅL!",
+            "songMelody": "Vi går över daggstänkta berg"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "En Liten gull",
+            "songLyric": "En Liten gull \n en liten gull… \n en liten gull… \n en liten gull… \n en liten gull, en gull \n en gull, en gull \n en-gull-en-gull-en-gull \n en-gull-en \n gullviva, mandelblom, katfot och blå viol. \n SKÅL!",
+            "songMelody": "En Liten gull"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Magen brummar…",
+            "songLyric": "Magen brummar \n Jag försummar \n Hälla dit \n mera sprit \n Nu så skall vi dricka \n Så att vi får hicka \n Mera sprit \n Akvavit \n SKÅL!",
+            "songMelody": "Broder Jacob"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Surret",
+            "songLyric": "Vad är det för jädrans surr, \n pip, pip. \n Jag känner mig lite snurr, \n pip, pip. \n Jag viskar till frugan: \n Ser du också flugan? \n Nej, jag ser en geting jag, \n pip, pip. \n SKÅL!",
+            "songMelody": "Här kommer Karl-Alfred boy"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Min lilla kråksång",
+            "songLyric": "När älgarna klappar takten \n till min lilla kråksång, \n när älgarna klappar takten \n blir den alldeles för lå-å-ång. \n \n Och när myggorna klappar takten \n till min lilla kråksång, \n när myggorna klappar takten \n blir den alldeles för kort. \n \n Men när kråkorna klappar takten, \n till min lilla kråksång, \n när kråkorna klappar takten, \n så blir den lagom lång. \n SKÅL!",
+            "songMelody": "Min lilla kråksång"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "En kulen natt",
+            "songLyric": "En kulen natt, natt, natt \n min båt jag styrde \n på havets vågade, vågade våg \n så skummet yrde. \n Och vart jag sågade, sågade, såg \n på havets vågade, vågade, våg \n långt ner i djupetti, petti, pe \n en fisk jag såg, och det var duuuuu \n SKÅL!",
+            "songMelody": "En kulen natt"
         ],
         [
-            "songTitle": "TITEL",
+            "songTitle": "Yesterday",
             "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songMelody": "Yesterday"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Sommarvisa",
+            "songLyric": "Du ska inte tro du får somna \n när spriten har satt lite fart \n Om armar och ben börjar domna \n så danser du samba så klart. \n \n Och när jag har fångat dej \n i min famn \n så släpper jag inte mitt grepp. \n Jag älskar dej, fast jag har glömt \n ditt namn \n jag håller dej till du skriker Släpp",
+            "songMelody": "Idas sommarvisa"
         ],
         [
-            "songTitle": "TITEL",
-            "songLyric": "RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n \n RADBYTE \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD \n RAD",
-            "songMelody": "MELODI"
+            "songTitle": "Visa mot aftonen",
+            "songLyric": "Så länge rösten är mild \n så länge ingen är vild \n så länge spegeln på väggen \n ger halvskaplig bild \n så länge alla kan stå \n så länge alla kan gå \n så länge alla kan tralla \n så fyller vi på! \n SKÅL!",
+            "songMelody": "Så länge skutan kan gå"
+        ],
+        [
+            "songTitle": "Sillfest",
+            "songLyric": "Höj nu glasen all gäster här, \n sillfest, sillfest hela da´n. \n midsommar det har vi nu igen, \n sillfest, sillfest hela da´n. \n Goda nubbar blir det här idag, \n sillfest, sillfest hela da´n. \n De går som smort, \n det har det alltid gjort, \n Ja, midsommar är allt en härlig dag. \n SKÅL!",
+            "songMelody": "Vi e alla glada bagarbarn"
+        ],
+        [
+            "songTitle": "Lilla glömskan",
+            "songLyric": "Sill, potatis, raj di daj di dukat bord, \n iskall snaps ta daj da glömt visst alla ord \n Hm ta Helan \n raj ta Halvan \n midsommar, tralallala, \n måste sjunga först för att få snapsen ta.",
+            "songMelody": "Imbelupet glaset står"
+        ],
+        [
+            "songTitle": "Dubbelnubbe",
+            "songLyric": "Hujedamej, så god den är, \n ej bättre tänkas kan. \n Och nubbe är det namn den bär \n (Nubben tages) \n den ner för strupen rann. \n \n Singdudeldej, singdudeldej \n singdudeldudeldej \n Singdudeldej, singdudeldej. \n (Nubben tages ånyo) \n Midsommarsuptjohej!",
+            "songMelody": "Hujedamej"
+        ],
+        [
+            "songTitle": "Kors va det sneglas",
+            "songLyric": "Kors vad det sneglas på snapsar i dag! \n Är det snapssnegling? \n Nä, dom ska drickas! \n Skål!",
+            "songMelody": "Dans på Brännö brygga"
+        ],
+        [
+            "songTitle": "I sommarsolen",
+            "songLyric": "I sommarens värmande strålar \n vi sitter och äter och skålar. \n Det kostar oss rätt mycket stålar \n vi sjunger så ändå: Hallå, hallå! \n Du som är smal du som är skral \n du som om skallen din är kal. \n Du som är le´, du som är sne´ \n ja, allihopa sjunger me´. \n I sommarens värmande strålar \n så glada sjunga vi: Slå i, slå i!",
+            "songMelody": "I sommarens soliga dagar"
+        ],
+        [
+            "songTitle": "Midsommarnubben",
+            "songLyric": "Alla här sitta, fånigt och titta. \n Nubbarna glittra kalla som is. \n Ja, varför dröja? Nej, låt oss höja \n glasen med klang på fädernas vis. \n \n Nubben den gör att alla bra mår. \n Sillen den manar: Skål och gutår! \n Solen den lyser, nubben den fryser. \n Värm den i magen, bra du då mår.",
+            "songMelody": "Vårvindar friska"
+        ],
+        [
+            "songTitle": "Uti vår mage",
+            "songLyric": "Uti vår mage där \n växa begär \n kom hjärtans kär. \n Vill du mig något \n så träffas vi där. \n Kom kryddsill och kall potatis, \n kom brännvin och quantum satis, kom \n allt som kan drickas, \n kom hjärtans fröjd.",
+            "songMelody": "Uti vår mage"
+        ],
+        [
+            "songTitle": "När gäddorna leka",
+            "songLyric": "När gäddorna leka i vikar och vass och \n sola går ner bakom Sjöbloms dass. \n Ja, då är det vår. \n Ja, då är det vår.",
+            "songMelody": "När gäddorna leker"
+        ],
+        [
+            "songTitle": "Kär snaps har många namn",
+            "songLyric": "Jag är getingen, färdknäppen, \n orren och göken. \n Jag är tutingen, rackaren, \n järnet och kröken. \n Knappen innanför västen är jag. \n \n Jag är klämtaren, luringen, \n nubben och fjutten. \n Jag är jamaren, rövaren, \n supen och hutten.",
+            "songMelody": "Det var dans bort i vägen"
+        ],
+        [
+            "songTitle": "Försvårad ankring",
+            "songLyric": "Med åror kan man komma långt \n med segel kan man komma längre \n men med en flaska brännvin, \n smör ost och sill, \n kommer man så långt man vill, \n men det blir svårt att lägga till.",
+            "songMelody": "Med käckhet kan man komma långt"
         ]
     ]
     
@@ -245,7 +335,8 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
         } else {
             array = songTitles
         }
-        cell.textLabel?.text = array[indexPath.row]
+        cell.titleText.text = array[indexPath.row]
+        //cell.textLabel?.text = array[indexPath.row]
         //cell.textLabel?.textColor = UIColor.white
         //cell.backgroundColor = UIColor.blue
         return cell

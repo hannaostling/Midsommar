@@ -10,6 +10,9 @@ import UIKit
 
 class SnapsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var titleText: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
