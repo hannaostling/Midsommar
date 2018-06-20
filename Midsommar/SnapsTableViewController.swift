@@ -302,26 +302,6 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
                 songMelodies.append(songMelody)
             }
         }
-        let longPressGesture:UILongPressGestureRecognizer = UILongPressGestureRecognizer(target: self,action: #selector(SnapsTableViewController.handleLongPress(_:)))
-        longPressGesture.minimumPressDuration = 1.0 // 1 second press
-        longPressGesture.delegate = self as? UIGestureRecognizerDelegate
-        self.tableView.addGestureRecognizer(longPressGesture)
-    }
-
-    // När man gör en longPress
-    @objc func handleLongPress(_ longPressGestureRecognizer: UILongPressGestureRecognizer) {
-        if longPressGestureRecognizer.state == UIGestureRecognizerState.began {
-            let touchPoint = longPressGestureRecognizer.location(in: self.view)
-            //if tableView.indexPathForRow(at: touchPoint) != nil {
-                //print("Hej")
-            //}
-            if let indexPath = tableView.indexPathForRow(at: touchPoint) {
-                print("Long pressed row: \(indexPath.row)")
-                //if let cell = tableView.cellForRow(at: indexPath) {
-                    //cell.accessoryType = .checkmark
-                //}
-            }
-        }
     }
     
     func updateSearchResults(for searchController: UISearchController) {
