@@ -268,6 +268,12 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
         ]
     ]
     
+    // När man klickar på sök-symbolen ska sökfältet och tangentbordet visas
+    @IBAction func searchButton(_ sender: Any) {
+        present(searchController, animated: true, completion: nil)
+        searchController.searchBar.becomeFirstResponder()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Snappsvisor"
@@ -292,7 +298,7 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
         if let text = searchController.searchBar.text?.lowercased() {
-            searchResult = songTitles.filter({ $0.lowercased().contains(text) })
+            searchResult = songTitles.filter({$0.lowercased().contains(text)})
         } else {
             searchResult = []
         }
@@ -344,11 +350,15 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toSnapsSegue" {
-            if let indexPath = tableView.indexPathForSelectedRow {
+             if let indexPath = tableView.indexPathForSelectedRow {
                 let destVC = segue.destination as! SnapsViewController
-                destVC.titleText = songTitles[indexPath.row]
-                destVC.lyricText = songLyrics[indexPath.row]
-                destVC.melodyText = "Melodi: " + songMelodies[indexPath.row]
+                if shouldUseSearchResult {
+                    destVC.titleText = searchResult[indexPath.row]
+                } else {
+                    destVC.titleText = songTitles[indexPath.row]
+                    destVC.lyricText = songLyrics[indexPath.row]
+                    destVC.melodyText = "Melodi: " + songMelodies[indexPath.row]
+                }
             }
         }
     }
