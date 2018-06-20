@@ -312,8 +312,14 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
     @objc func handleLongPress(_ longPressGestureRecognizer: UILongPressGestureRecognizer) {
         if longPressGestureRecognizer.state == UIGestureRecognizerState.began {
             let touchPoint = longPressGestureRecognizer.location(in: self.view)
-            if tableView.indexPathForRow(at: touchPoint) != nil {
-                print("Hej")
+            //if tableView.indexPathForRow(at: touchPoint) != nil {
+                //print("Hej")
+            //}
+            if let indexPath = tableView.indexPathForRow(at: touchPoint) {
+                print("Long pressed row: \(indexPath.row)")
+                //if let cell = tableView.cellForRow(at: indexPath) {
+                    //cell.accessoryType = .checkmark
+                //}
             }
         }
     }
