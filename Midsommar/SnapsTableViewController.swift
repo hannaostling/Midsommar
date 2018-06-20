@@ -274,6 +274,12 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
         searchController.searchBar.becomeFirstResponder()
     }
     
+    // När man klickar på random-symbolen så ska en slumpad snapsvisa dyka upp
+    @IBAction func randomSnapsvisa(_ sender: Any) {
+        songTitles.shuffle()
+        tableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Snappsvisor"
@@ -342,9 +348,6 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
             array = songTitles
         }
         cell.titleText.text = array[indexPath.row]
-        //cell.textLabel?.text = array[indexPath.row]
-        //cell.textLabel?.textColor = UIColor.white
-        //cell.backgroundColor = UIColor.blue
         return cell
     }
     
@@ -363,4 +366,12 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
         }
     }
     
+}
+
+extension Array {
+    mutating func shuffle() {
+        for _ in 0..<10 {
+            sort { (_,_) in arc4random() < arc4random() }
+        }
+    }
 }
