@@ -52,6 +52,11 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="bSj-Fw-9It">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="random" id="X7W-IF-6cR">
+                            <connections>
+                                <action selector="randomSnapsvisa:" destination="k5U-St-9ez" id="45f-NR-vCb"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem systemItem="search" id="Lfo-qc-3yo">
                                 <connections>
@@ -221,6 +226,7 @@ Skåne och Aalborg och OP - det är ju sed!</string>
     <resources>
         <image name="home" width="25" height="25"/>
         <image name="midsommarstang" width="300" height="351"/>
+        <image name="random" width="25" height="25"/>
     </resources>
     <color key="tintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
