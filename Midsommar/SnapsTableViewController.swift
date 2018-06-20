@@ -280,6 +280,8 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
         tableView.reloadData()
     }
     
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Snappsvisor"
@@ -298,6 +300,20 @@ class SnapsTableViewController: UITableViewController, UISearchResultsUpdating {
             }
             if let songMelody = songs["songMelody"] {
                 songMelodies.append(songMelody)
+            }
+        }
+        let longPressGesture:UILongPressGestureRecognizer = UILongPressGestureRecognizer(target: self,action: #selector(SnapsTableViewController.handleLongPress(_:)))
+        longPressGesture.minimumPressDuration = 1.0 // 1 second press
+        longPressGesture.delegate = self as? UIGestureRecognizerDelegate
+        self.tableView.addGestureRecognizer(longPressGesture)
+    }
+
+    // När man gör en longPress
+    @objc func handleLongPress(_ longPressGestureRecognizer: UILongPressGestureRecognizer) {
+        if longPressGestureRecognizer.state == UIGestureRecognizerState.began {
+            let touchPoint = longPressGestureRecognizer.location(in: self.view)
+            if tableView.indexPathForRow(at: touchPoint) != nil {
+                print("Hej")
             }
         }
     }
